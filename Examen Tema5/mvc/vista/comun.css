@@ -1,0 +1,43 @@
+html, body {
+    background-color: #FDF0D9;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    background-color: #EDA87D;
+    color: white;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 5px;
+}
+div#menu {
+    background-color: #F2BA5F;
+    color: white;
+    margin: 0px;
+}
+div#menu ul {
+    list-style-type: none;
+    margin: 0px 5px;
+    padding: 5px;
+}
+div#menu li {
+    display: inline;
+    padding: 0px 15px;
+}
+div#menu a {
+    background-color: #F2BA5F;
+    color: white;
+    font-weight: bold;
+}
+div#contenido {
+    padding: 10px;
+}
+input {
+    font-family: monospace;
+}
+td, th {
+    padding-left: 5px;
+    padding-right: 5px;
+}
