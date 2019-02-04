@@ -1,0 +1,13 @@
+CREATE TABLE productos (
+codigo CHAR(6) NOT NULL ,
+nombre VARCHAR(50) NOT NULL ,
+precio DECIMAL(6,2) NOT NULL ,
+cantidad INT NOT NULL ,
+ PRIMARY KEY (codigo)
+)DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+INSERT INTO productos ( codigo , nombre , precio, cantidad ) VALUES
+('L00012', 'Leche Entera', 0.80, 50),
+('L00255', 'Batido Fresa', 0.95, 25),
+('R01203', 'Tarta Chocolate', 12.30, 80),
+('R30783', 'Pastel Nueces', 11.00, 12);
